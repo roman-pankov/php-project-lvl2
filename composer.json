@@ -7,6 +7,16 @@
         }
     ],
     "require": {
-        "docopt/docopt": "^1.0"
+        "php": "^7.4",
+        "docopt/docopt": "^1.0",
+        "funct/funct": "^1.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Differ\\": "src/"
+        },
+        "files": [
+            "src/Differ.php"
+        ]
     }
 }
